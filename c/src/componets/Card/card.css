@@ -1,0 +1,22 @@
+.app__card{
+    margin: 0;
+    padding: 0;
+}
+.app__card-sub__name{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0.5rem;
+    padding: 5px 1rem;
+    justify-content: center;
+    align-items: center;
+}
+/* .app__card-sub__name h2{
+} */
+.app__card-sub__address{
+    display: flex;
+}
+/* .app__card-sub__address p{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+} */

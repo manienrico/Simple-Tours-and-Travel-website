@@ -1,0 +1,26 @@
+nav{
+    display: flex;
+    margin: 0rem 1rem;
+    padding: 1rem 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li a{
+    display: flex;
+    margin: 1 0.1rem;
+    padding: 0.29rem 2rem;
+}
+ul li a:hover{
+    color: #fff;
+    border-bottom: 2px solid black;
+}
+ul li a:active{
+    color: #fff;
+    background: #000;
+    border-radius: 5px;
+}

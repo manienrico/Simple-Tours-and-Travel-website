@@ -40,10 +40,11 @@ function Home(){
 
             <div className='app__home-contents'>
                 <div className='app__home-contents__headings'>
-                    <h2>Destinations</h2>
+                    <h2>Available</h2>
+                    <p>Destinations</p>
                 </div>
                 <div id='destination-home' className='app__home-destination'>
-                    <Swiper 
+                    {/* <Swiper 
                         modules={[Navigation, Pagination, Scrollbar, A11y]}
                         spaceBetween={50}
                         slidesPerView={3}
@@ -67,11 +68,11 @@ function Home(){
                         </SwiperSlide>    
                         <SwiperSlide>
 
-                </SwiperSlide>                        
-                <SwiperSlide>
+                        </SwiperSlide>                        
+                        <SwiperSlide>
 
-                </SwiperSlide>
-                    </Swiper>
+                        </SwiperSlide>
+                    </Swiper> */}
                     <div className='app__home-DestinationCard'>
                         <img src={bujjagali} alt="vvv" />
                         <Card name='Bujjagali Falls' address='Jinja, along the river nile.' />
@@ -99,8 +100,9 @@ function Home(){
                 </div>
                 
                 <div className='app__home-contents__headings'>
-                        <h2>Hotel check-ins</h2>
-                 </div>
+                    <h2>Featured</h2>
+                    <p>Hotel and Lodgings</p>
+                </div>
                 <div id='hotelCheckIn-home' className="app__home-hotelCheckIn">
                                        
                     <div className='app__home-hotelCheckInCard'>

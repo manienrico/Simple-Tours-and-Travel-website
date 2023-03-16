@@ -1,0 +1,26 @@
+.app__contact{}
+.app__contact-contain{}
+.app__contact-contain__contents{
+    width: 70%;
+    height: 80vh;
+    border: 1px solid #000;
+}
+.app__contact-contain__content-head{
+    width: 100%;
+    height: 5vh;
+    border: 1px solid orange;
+}
+.app__contact-contain__content-head a{
+    padding: 2rem 5rem;
+    margin: 2rem;
+    text-align: center;
+}
+.app__contact-contain__content-body{
+    width: 100%;
+    height: 55vh;
+    border: 1px solid blue;
+}
+/* .app__contact-contain__content-body #address,.app__contact-contain__content-body #telephone,.app__contact-contain__content-body #email{
+    width: 100%;
+    height: 55vh;
+} */

@@ -7,6 +7,8 @@ import murchsion from '../../images/ivan-sabayuki-rV8XeF6leIA-unsplash.jpg'
 import elgon from '../../images/nathan-dumlao-HKZPcz4Jpm8-unsplash.jpg'
 import kasenyi from '../../images/hennie-stander-cYPbGVr3njE-unsplash.jpg'
 import nyamwiru from '../../images/2h-media-6r0XFKDumKk-unsplash.jpg'
+import endVisual from '../../images/endVisual.jpg'
+import mid from '../../images/mid.mp4'
 
 import {Navigation, Pagination, Scrollbar,A11y} from 'swiper'
 import {Swiper, SwiperSlide} from 'swiper/react'
@@ -140,7 +142,9 @@ function Home(){
                     </div>
                 </div>
                 <div className="app__home-midVisual">
-                    <img src="#" alt="midVisual" />
+                    <video autoPlay loop muted className='endVisual'>
+                        <source src={mid} type='video/mp4' />
+                    </video>
                 </div>
                 <div>
                     <div className='app__home-contents__headings'>
@@ -175,11 +179,20 @@ function Home(){
                     </div>
                 </div>
                 
-                <div id='blog-home' className="app__home-blogSnippets">
+                {/* <div id='blog-home' className="app__home-blogSnippets">
                     <h2>Blog</h2>
-                </div>
-                <div className="app__home-endVisual">
-                    <img src="#" alt="endVisual" />
+                </div> */}
+                <div className='separation'></div>
+
+                <div className="app__home-endVisual"
+                    style={{
+                        backgroundImage: `url(${endVisual})`,
+                        backgroundRepeat: 'no-repeat',
+                        backgroundSize: 'cover',
+                        height: '100vh'
+                    }}
+                >
+                    
                 </div>
             </div>
             <Footer />

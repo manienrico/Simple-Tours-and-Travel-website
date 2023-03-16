@@ -1,3 +1,6 @@
 export {default as Card} from './Card/Card'
 export {default as Footer} from './Footer/Footer'
 export {default as Navbar} from './Navbar/Navbar'
+export {default as Address} from './Address/Address'
+export {default as Telephone} from './Telephone/Telephone'
+export {default as Email} from './Email/Email'

@@ -31,6 +31,10 @@ footer{
     padding: 1rem;
     margin: 1px;
 }
+.app__footer-body p, .app__footer-body a{
+    display: flex;
+    padding: 0.3rem 0 0.3rem 0;
+}
 .app__footer-1__socials{
     display: flex;
     justify-content: flex-start;

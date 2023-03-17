@@ -9,6 +9,8 @@
     width: 100%;
     height: 5vh;
     border: 1px solid orange;
+    display: flex;
+    padding: 2rem;
 }
 .app__contact-contain__content-head a{
     padding: 2rem 5rem;

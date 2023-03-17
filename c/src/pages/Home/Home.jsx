@@ -9,6 +9,7 @@ import kasenyi from '../../images/hennie-stander-cYPbGVr3njE-unsplash.jpg'
 import nyamwiru from '../../images/2h-media-6r0XFKDumKk-unsplash.jpg'
 import endVisual from '../../images/endVisual.jpg'
 import mid from '../../images/mid.mp4'
+import beach from '../../images/justin-kauffman-fM0ZBklturE-unsplash.jpg'
 
 import {Navigation, Pagination, Scrollbar,A11y} from 'swiper'
 import {Swiper, SwiperSlide} from 'swiper/react'
@@ -98,6 +99,10 @@ function Home(){
                     <div className='app__home-DestinationCard'>
                         <img src={nyamwiru} alt="vvv" />
                         <Card name='Mabere ga nyamwiru' address='Bunyoro region.' />
+                    </div>
+                    <div className='app__home-DestinationCard'>
+                        <img src={beach} alt="vvv" />
+                        <Card name='Beach' address='Bunyoro region.' />
                     </div>
                 </div>
                 

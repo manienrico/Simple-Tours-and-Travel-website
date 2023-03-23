@@ -1,26 +1,53 @@
-.app__contact{}
-.app__contact-contain{}
+.app__contact{
+}
+.app__contact-contain{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    color: #000;
+}
 .app__contact-contain__contents{
     width: 70%;
-    height: 80vh;
-    border: 1px solid #000;
+    height: 65vh;
+    /* background-color: orange;
+    margin: 0;
+    padding-top: 2rem; */
 }
 .app__contact-contain__content-head{
     width: 100%;
     height: 5vh;
-    border: 1px solid orange;
     display: flex;
-    padding: 2rem;
+    padding: 5rem 2rem;
+    margin-bottom: 1rem;
+    background-color: orange;
+    color: #fff;
 }
-.app__contact-contain__content-head a{
-    padding: 2rem 5rem;
-    margin: 2rem;
-    text-align: center;
+.address,.tel,.email{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 2rem 2rem;
+}
+.address:active,.tel:active,.email:active{
+    background-color: #000;
+    color: #fff;
+    border-radius: 1rem;
+}
+.address:hover,.tel:hover,.email:hover{
+    border-bottom: 0.2rem solid #000;
 }
 .app__contact-contain__content-body{
     width: 100%;
-    height: 55vh;
-    border: 1px solid blue;
+    height: 40vh;
+    background-color: #000;
+    border-radius: 2rem;
+    color: #fff;
+    margin: 0;
 }
 /* .app__contact-contain__content-body #address,.app__contact-contain__content-body #telephone,.app__contact-contain__content-body #email{
     width: 100%;

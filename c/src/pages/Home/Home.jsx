@@ -37,7 +37,6 @@ function Home(){
                     <a href="#hotelCheckIn-home">Hotel Check-ins</a>
                     <a href="#fares-home">Fares</a>
                     <a href="#testimonial-home">Testimonial</a>
-                    <a href="#blog-home">Blog</a>
                 </div>
             </div>
 
@@ -47,35 +46,7 @@ function Home(){
                     <p>Destinations</p>
                 </div>
                 <div id='destination-home' className='app__home-destination'>
-                    {/* <Swiper 
-                        modules={[Navigation, Pagination, Scrollbar, A11y]}
-                        spaceBetween={50}
-                        slidesPerView={3}
-                        navigation
-                        pagination={{ clickable: true }}
-                        scrollbar={{ draggable: true }}
-                        onSwiper={(swiper) => console.log(swiper)}
-                        onSlideChange={() => console.log('slide change')}
-                    >
-                        <SwiperSlide>
-
-                        </SwiperSlide>
-                        <SwiperSlide>
-
-                        </SwiperSlide>
-                        <SwiperSlide>
-
-                        </SwiperSlide>                        
-                        <SwiperSlide>
-
-                        </SwiperSlide>    
-                        <SwiperSlide>
-
-                        </SwiperSlide>                        
-                        <SwiperSlide>
-
-                        </SwiperSlide>
-                    </Swiper> */}
+                    
                     <div className='app__home-DestinationCard'>
                         <img src={bujjagali} alt="vvv" />
                         <Card name='Bujjagali Falls' address='Jinja, along the river nile.' />
@@ -138,12 +109,17 @@ function Home(){
                     </div>
                 </div>
                 <div id='fares-home' className="app__home-fares">
-                    <h2>Fares</h2>
-                    <div className='app__home-FaresCard'>
-                        <Card price='Shs 60,000.00 UG' description='Includes Transport, Entrance, Photography, Swimming, and, Refreshment.' />
+                    <div className='app__fare-contain'>
+                        <h2 className='three'>Fares</h2>
+                        <div className='app__home-FaresCard'>
+                            <Card price='Shs 60,000.00 UG' description='Transport, Entrance, Photography, Swimming, and, Refreshment.' />
+                        </div>
                     </div>
-                    <div className='app__home-FaresCard'>
-                        <Card name='Activities' description='Tubing, Water massage, Rafting, Boat cruize' />
+                    <div className='app__activities-contain'>
+                        <h2 className='three'>Activities</h2>
+                        <div className='app__home-FaresCard '>
+                            <Card description='Tubing, Water massage, Rafting, Boat cruize' />
+                        </div>
                     </div>
                 </div>
                 <div className="app__home-midVisual">
@@ -151,35 +127,29 @@ function Home(){
                         <source src={mid} type='video/mp4' />
                     </video>
                 </div>
-                <div>
-                    <div className='app__home-contents__headings'>
+                <div className='app__home-testimonials'>
+                    <div className='app__home-contents__headings makati'>
                         <h2>Testimonials</h2>
                     </div>
                     <div id='testimonial-home' className="app__home-testimonialSnippets">
                         
                         <div className='app__home-TestimonialCard grow'>
                             <Card name='Jon Doe' description='They very punctual, right on time.' />
-                            
                         </div>
                         <div className='app__home-TestimonialCard grow'>
                             <Card name='Tonny Stark' description='I love their customer care, it"s very top notch.' />
-                            
                         </div>
                         <div className='app__home-TestimonialCard grow'>
                             <Card name='Martha Kay' description='The food was served hot as i wanted it to be. I am definitely coming back here.' />
-                            
                         </div>
                         <div className='app__home-TestimonialCard grow'>
                             <Card name='George Duck' description='Let also get my friends to join in on these advntures.' />
-                           
                         </div>
                         <div className='app__home-TestimonialCard grow'>
                             <Card name='Peter Miles' description='Am planning for another trip with you guys, i really enjoyed my time there.' />
-                            
                         </div>
                         <div className='app__home-TestimonialCard grow'>
                             <Card description='When is the next trip, i missed the first one so i dont want to miss again on any.' name='Wonder Maskmorf'  />
-                            
                         </div>
                     </div>
                 </div>

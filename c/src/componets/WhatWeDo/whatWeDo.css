@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app__whatWeDo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    padding: 10rem;
+    border-radius: 1rem;
+}

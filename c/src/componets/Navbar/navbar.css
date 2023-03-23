@@ -16,8 +16,7 @@ ul li a{
     padding: 0.29rem 2rem;
 }
 ul li a:hover{
-    color: #fff;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #000;
 }
 ul li a:active{
     color: #fff;

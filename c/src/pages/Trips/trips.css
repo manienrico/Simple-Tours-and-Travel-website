@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app__trips{}
+.app__trips-contain{
+    display: flex;
+    flex-direction: column;
+}
+.app__trips-info{}
+.app__trips-info__latest{
+    display: flex;
+    flex-direction: column;
+}
+.app__trips-head,.app__trips-info__attendance-head{
+    display: flex;
+    margin: 1.2rem 1rem;
+}
+.app__trips-main{
+    display: flex;
+}
+.app__trips-info__latest-trip{
+    margin: 0.5rem;
+}
+.app__trips-info__attendance{
+    display: flex;
+    flex-direction: column;
+}
+.app__trips-info__attendance-head{
+    display: flex;
+}
+.app__trips-info__attendance-main{
+    display: flex;
+}
+.app__trips-effort{
+    display: flex;
+}
+.app__trips-effort__soon{
+    display: flex;
+    margin: 0 0.5rem;
+}

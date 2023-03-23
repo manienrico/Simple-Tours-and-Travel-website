@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Navbar,Footer, Email,Address,Telephone } from '../../componets/index'
+import {BsTelephoneFill} from 'react-icons/bs'
 import './contact.css'
 
 function Contact(){
@@ -13,10 +14,14 @@ function Contact(){
 
     return(
         <div className='app__contact'>
-            <header>
+            <header id='h'>
                 <Navbar />
             </header>
             <div className='app__contact-contain'>
+                <div className='app__contact-intro'>
+                    <h1>Get in touch!</h1>
+                    <span>For any inquiries or query.</span>
+                </div>
                 <div className='app__contact-contain__contents'>
                     <div className='app__contact-contain__content-head'>
                         <div className="address" onClick={changeChoiceState}>Address</div>

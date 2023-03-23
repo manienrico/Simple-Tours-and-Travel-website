@@ -3,9 +3,13 @@
     padding: 0;
     margin: 0;
     list-style: none;
+    /* color: #000; */
+    font-family: 'Roboto Slab', serif;
 }
+
 a{
     text-decoration: none;
+    color: #000;
 }
 ::-webkit-scrollbar{
     display: none;
@@ -14,3 +18,33 @@ a{
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
   }
+
+  .two{
+    font-family: 'Abhaya Libre', serif;
+}
+.three{
+    font-family: 'Delicious Handrawn', cursive;
+    font-weight: 400;
+}
+.one{
+    font-family: 'Roboto Slab', serif;
+}
+.four{
+    font-family: 'Alkatra', cursive;
+    font-weight: 300;
+}
+.five{
+    font-family: 'Fasthand', cursive;
+}
+.six{
+    font-family: 'Quicksand', sans-serif;
+}
+  /* :root{
+
+font-family: 'Abhaya Libre', serif;
+font-family: 'Alkatra', cursive;
+font-family: 'Delicious Handrawn', cursive;
+font-family: 'Fasthand', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Roboto Slab', serif;
+} */

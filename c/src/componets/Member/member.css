@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app__member{
+    display: flex;
+    flex-direction: column;
+}
+.app__member-head{
+    display: flex;
+    flex-direction: column;
+}
+.app__member-name{
+    display: flex;
+}
+.app__member-head__title{
+    margin-right: 0.5rem;
+}
+.app__member-head__name{
+    font-weight: 800;
+}
+.app__member-body{
+    margin: 1rem 0;
+}

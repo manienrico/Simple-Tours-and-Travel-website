@@ -1,0 +1,17 @@
+.app__telephone{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.app__telephone-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 7rem 5rem;
+}
+span{
+    margin-left: 1.5rem;
+}

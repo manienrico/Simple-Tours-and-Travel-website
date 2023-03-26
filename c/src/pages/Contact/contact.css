@@ -1,3 +1,6 @@
+#h{
+    background-color: orange;
+}
 .app__contact{
 }
 .app__contact-contain{
@@ -6,8 +9,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: orange;
+    background-color: #fff;
     color: #000;
+}
+.app__contact-intro{
+    justify-content: center;
+    align-items: center;
+}
+.app__contact-intro span{
+    color: orange;
 }
 .app__contact-contain__contents{
     width: 70%;
@@ -22,8 +32,8 @@
     display: flex;
     padding: 5rem 2rem;
     margin-bottom: 1rem;
-    background-color: orange;
-    color: #fff;
+    background-color: #fff;
+    color: orange;
 }
 .address,.tel,.email{
     width: 100%;

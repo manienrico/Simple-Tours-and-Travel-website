@@ -5,7 +5,7 @@ import './trips.css'
 function Trips(){
     return(
         <div className='app__trips'>
-            <header>
+            <header id='h'>
                 <Navbar />
             </header>
             <div className='app__trips-contain'>
@@ -40,7 +40,7 @@ function Trips(){
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className='app__trips-info__latest'>
                     <div className='app__trips-info__attendance-head'>
                         <h1>Trips</h1>
                     </div>

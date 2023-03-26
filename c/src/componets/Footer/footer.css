@@ -1,7 +1,10 @@
 footer{
     margin: 0;
-    padding: 0;
+    padding-bottom: 2rem;
     display: block;
+    /* background-color: gainsboro; */
+    background-color: #000;
+    color: #fff;
 }
 .rights{
     display: flex;
@@ -24,17 +27,22 @@ footer{
     align-items: center;
     margin: 2rem 0;
     padding: 1rem;
+    color: orange;
 }
 .app__footer-body{
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    margin: 1px;
+    margin: 1px;  
 }
 .app__footer-body p, .app__footer-body a{
     display: flex;
     padding: 0.3rem 0 0.3rem 0;
+    color: gainsboro;
 }
+/* .huver{
+    color: ;
+} */
 .app__footer-1__socials{
     display: flex;
     justify-content: flex-start;
@@ -43,4 +51,7 @@ footer{
 .app__footer-1__socials a{
     margin: 0rem 1rem;
     padding: 1rem 0;
+}
+.rights{
+    color: gainsboro;
 }

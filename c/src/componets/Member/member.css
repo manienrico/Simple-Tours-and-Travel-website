@@ -6,6 +6,10 @@
 .app__member{
     display: flex;
     flex-direction: column;
+    margin: 2rem;
+    line-height: 1.2rem;
+    justify-content: center;
+    align-items: center;
 }
 .app__member-head{
     display: flex;
@@ -13,9 +17,17 @@
 }
 .app__member-name{
     display: flex;
+    font-size: 1.3rem;
+    justify-content: center;
+    align-items: center;
 }
 .app__member-head__title{
     margin-right: 0.5rem;
+}
+.app__member-head__position{
+    margin-bottom: 0.5rem;
+    justify-content: center;
+    align-items: center;
 }
 .app__member-head__name{
     font-weight: 800;

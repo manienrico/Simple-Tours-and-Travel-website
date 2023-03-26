@@ -12,11 +12,14 @@ ul{
 }
 ul li a{
     display: flex;
-    margin: 1 0.1rem;
-    padding: 0.29rem 2rem;
+    padding: 0.4rem 1rem;
+    margin: 0 1rem;
+    /* margin: 1 0.1rem;
+    padding: 0.29rem 2rem; */
 }
 ul li a:hover{
     border-bottom: 2px solid #000;
+    
 }
 ul li a:active{
     color: #fff;

@@ -3,22 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
-.app__trips{}
+.app__trips{
+}
 .app__trips-contain{
     display: flex;
     flex-direction: column;
+    margin: 0 5rem;
+    padding: 1rem;
 }
-.app__trips-info{}
-.app__trips-info__latest{
+.app__trips-info{
+    padding: 0.5rem 0;
+}
+.app__trips-info__latest,.app__trips-info__attendance{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
 }
 .app__trips-head,.app__trips-info__attendance-head{
     display: flex;
-    margin: 1.2rem 1rem;
+    padding: 2rem 1rem;
 }
-.app__trips-main{
-    display: flex;
+.app__trips-main,.app__trips-effort,.app__trips-info__attendance-main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.5rem;
+    justify-content: center;
 }
 .app__trips-info__latest-trip{
     margin: 0.5rem;
@@ -31,10 +41,10 @@
     display: flex;
 }
 .app__trips-info__attendance-main{
-    display: flex;
+    /* display: flex; */
 }
 .app__trips-effort{
-    display: flex;
+    /* display: flex; */
 }
 .app__trips-effort__soon{
     display: flex;

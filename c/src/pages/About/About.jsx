@@ -50,27 +50,27 @@ function About(){
                 </div>
             </div>
             <div className='app__about-composition'>
-                    <div className='app__about-composition__founder'>
-                        <div className='app__about-founder__contain'>
-                            <img src={founder} alt="Founder" />
-                            <Member title='Mr.' name='Martin Ntambazi' position='C.E.O' description='Search for the keywords to learn more about each warning.
-    To ignore, add // eslint-disable-next-line to the line before.' />
-                        </div>
+                <div className='app__about-composition__founder'>
+                    <div className='app__about-founder__contain'>
+                        <img src={founder} alt="Founder" />
+                        <Member title='Mr.' name='Martin Ntambazi' position='C.E.O' description='Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.' />
                     </div>
-                    <div className='app__about-composition__team'>
-                        <div className='member'>
-                            <img src={mbr} alt="Team member 1" />
-                            <Member title='Ms.' name='Test one' position='H.R' />
-                        </div>
-                        <div className='member'>
-                            <img src={mbr} alt="Team member 2" />
-                            <Member title='Mr.' name='Test four' position='Operations Manager' />
-                        </div>
-                        <div className='member'>
-                            <img src={mbr} alt="Team member 3" />
-                            <Member title='Dr.' name='Burna Boy' position='Managing Director' />
-                        </div>
+                </div>
+                <div className='app__about-composition__team'>
+                    <div className='member'>
+                        <img src={mbr} alt="Team member 1" />
+                        <Member title='Ms.' name='Test one' position='H.R' />
                     </div>
+                    <div className='member'>
+                        <img src={mbr} alt="Team member 2" />
+                        <Member title='Mr.' name='Test four' position='Operations Manager' />
+                    </div>
+                    <div className='member'>
+                        <img src={mbr} alt="Team member 3" />
+                        <Member title='Dr.' name='Burna Boy' position='Managing Director' />
+                    </div>
+                </div>
             </div>
             <div className='app__about-fun__contain'>
                 <div className='app__about-fun'>

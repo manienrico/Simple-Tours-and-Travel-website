@@ -8,7 +8,7 @@ function Footer(){
         <footer>
             <div className='app__footer-contain'>
                 <div className='app__footer-1'>
-                    <h3 className='app__footer-head'>Blackman Safaris</h3>
+                    <h2 className='app__footer-head'>Blackman Safaris</h2>
                     <p className='app__footer-body'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     <div className='app__footer-1__socials'>
                         <a href="#"><RxTwitterLogo size={30} /></a>
@@ -17,26 +17,26 @@ function Footer(){
                     </div>
                 </div>
                 <div className='app__footer-2'>
-                    <h3 className='app__footer-head'>Information</h3>
+                    <h2 className='app__footer-head'>Information</h2>
                     <div className='app__footer-body'>
-                        <a href="#">Terms and Conditions</a>
-                        <a href="#">Privacy Policy</a>
+                        <a href="#" className='huver' >Terms and Conditions</a>
+                        <a href="#" className='huver' >Privacy Policy</a>
                     </div>
                 </div>
                 <div className='app__footer-3'>
-                    <h3 className='app__footer-head'>Customer Support</h3>
+                    <h2 className='app__footer-head'>Customer Support</h2>
                     <div className='app__footer-body'>
-                        <a href="#">FAQ</a>
-                        <a href="#">Payment Options</a>
-                        <a href="#">Book a Trip</a>
+                        <a href="#" className='huver' >FAQ</a>
+                        <a href="#" className='huver' >Payment Options</a>
+                        <a href="#" className='huver' >Book a Trip</a>
                     </div>
                 </div>
                 <div className='app__footer-4'>
-                    <h3 className='app__footer-head'>Find Us</h3>
+                    <h2 className='app__footer-head'>Find Us</h2>
                     <div className='app__footer-body'>
-                       <p><MdLocationOn size={32} /> 24th Street, off Old Portbell Rd.</p>
-                       <p><BsTelephoneFill size={20} /> +256 392 921 090</p>
-                       <p><MdEmail size={20} /> info.bmsafaris@gmail.com</p>
+                       <p><MdLocationOn size={32} /> <span>24th Street, off Old Portbell Rd.</span></p>
+                       <p><BsTelephoneFill size={20} /> <span>+256 392 921 090</span></p>
+                       <p><MdEmail size={20} /> <span>info.bmsafaris@gmail.com</span></p>
                     </div>
                 </div>
                 

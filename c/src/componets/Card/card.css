@@ -5,8 +5,8 @@
 .app__card-sub__name{
     display: flex;
     flex-direction: column;
-    margin: 0 0.5rem;
-    padding: 5px 1rem;
+    /* margin: 0 0.5rem;
+    padding: 5px 1rem; */
     justify-content: center;
     align-items: center;
 }

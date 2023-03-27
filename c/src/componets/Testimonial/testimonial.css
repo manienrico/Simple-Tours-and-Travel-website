@@ -1,0 +1,30 @@
+.app__testimonial{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app__testimonial-contain{
+    padding: 2rem;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+}
+.app__testimonial-top{
+    display: flex;
+    flex-direction: column;
+}
+.app__testimonial-name{
+    margin: 0.5rem 0;
+}
+.app__testimonial-desc{
+    justify-content: center;
+    align-items: center;
+}
+.app__testimonial-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+.app__testimonial-rate{}
+.app__testimonial-date{}

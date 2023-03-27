@@ -1,4 +1,4 @@
-import { Navbar,Footer, Card } from '../../componets/index'
+import { Navbar,Footer, Card, Testimonial } from '../../componets/index'
 
 import background from '../../images/chastagner-thierry-1zFlrpWTs3Y-unsplash.jpg'
 import bujjagali from '../../images/jonathan-gohner-EmsDN8-M4dk-unsplash.jpg'
@@ -15,6 +15,7 @@ import {Navigation, Pagination, Scrollbar,A11y} from 'swiper'
 import {Swiper, SwiperSlide} from 'swiper/react'
 
 import './home.css'
+import 'swiper/css';
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/scrollbar'
@@ -32,12 +33,15 @@ function Home(){
                 <header>
                     <Navbar />
                 </header>
-                <div className="app__home-inPageNav">
-                    <a href="#destination-home">Destination</a>
-                    <a href="#hotelCheckIn-home">Hotel Check-ins</a>
-                    <a href="#fares-home">Fares</a>
-                    <a href="#testimonial-home">Testimonial</a>
+                <div className='app__miniNav-contain'>
+                    <div className="app__home-inPageNav">
+                        <a href="#destination-home">Destination</a>
+                        <a href="#hotelCheckIn-home">Hotel Check-ins</a>
+                        <a href="#fares-home">Fares</a>
+                        <a href="#testimonial-home">Testimonial</a>
+                    </div>
                 </div>
+                
             </div>
 
             <div className='app__home-contents'>
@@ -131,27 +135,39 @@ function Home(){
                     <div className='app__home-contents__headings makati'>
                         <h2>Testimonials</h2>
                     </div>
+                    
                     <div id='testimonial-home' className="app__home-testimonialSnippets">
-                        
-                        <div className='app__home-TestimonialCard grow'>
-                            <Card name='Jon Doe' description='They very punctual, right on time.' />
-                        </div>
-                        <div className='app__home-TestimonialCard grow'>
-                            <Card name='Tonny Stark' description='I love their customer care, it"s very top notch.' />
-                        </div>
-                        <div className='app__home-TestimonialCard grow'>
-                            <Card name='Martha Kay' description='The food was served hot as i wanted it to be. I am definitely coming back here.' />
-                        </div>
-                        <div className='app__home-TestimonialCard grow'>
-                            <Card name='George Duck' description='Let also get my friends to join in on these advntures.' />
-                        </div>
-                        <div className='app__home-TestimonialCard grow'>
-                            <Card name='Peter Miles' description='Am planning for another trip with you guys, i really enjoyed my time there.' />
-                        </div>
-                        <div className='app__home-TestimonialCard grow'>
-                            <Card description='When is the next trip, i missed the first one so i dont want to miss again on any.' name='Wonder Maskmorf'  />
-                        </div>
+                    <Swiper
+                        modules={[Navigation,Pagination,Scrollbar,A11y]} 
+                        spaceBetween={50} 
+                        slidesPerView={4}
+                        navigation
+                        pagination={{clickable: true}} 
+                        scrollbar={{clickable: true}}
+                        onSwiper={(Swiper)=>console.log(Swiper)}
+                        onSlideChange={()=>console.log('slide change')}
+                        >    
+                            <SwiperSlide>
+                                <Testimonial Name='John Doe' Rate='5 starz' Description='Note that the development build is not optimized.' month_year='Jan/2004' />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <Testimonial Name='The Chainsmokers' Description='To create a production build, use npm run build.' month_year='Jul/2010' />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <Testimonial Name='Seve Matteo' Description='To create a production build, use npm run build. Note that the development build is not optimized.' month_year='Apr/2017' />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <Testimonial Name='Marco .T' Description='Note that the development build is not optimized Terminate batch job you think i really enjoyed it.' month_year='Aug/2018' />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <Testimonial Name='Mauro .G' Description='Wondeful service and exceptional products. You should really have a taste of their services.' month_year='Sept/2018' />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <Testimonial Name='Peter Jon' Description='Hoooooo, the services are top notch. Am not lying when i say this surely, mstchewwwww.' month_year='Sept/2018' />
+                            </SwiperSlide>
+                        </Swiper>
                     </div>
+                    
                 </div>
                 
                 {/* <div id='blog-home' className="app__home-blogSnippets">

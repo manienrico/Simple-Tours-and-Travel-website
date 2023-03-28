@@ -1,3 +1,7 @@
+header{
+    margin: 0;
+    padding: 0;
+}
 .app__about{}
 .app__about-intro{
     display: flex;
@@ -136,4 +140,81 @@
 }
 .app__about-fun__subHead{
     color: #000;
+}
+
+@media screen and (max-width: 768px) {
+    .app__about-businessStory__img{
+        display: none;
+    }
+    .app__about-businessStory__detail-head{
+        margin: 0.8rem 4rem;
+    }
+    .whatWeDo,.mission,.goal{
+        margin: 0rem 0.4rem;
+        padding: 0.8rem 0.8rem;
+        cursor: pointer;
+    }
+    .app__about-founder__contain img{
+        display: none;
+    }
+    .app__about-fun__contain{
+        margin: 8rem 4rem;
+    }
+    .app__about-fun{
+        width: 70%;
+        margin: 3rem;
+        padding: 3rem;
+    }
+    .app__about-fun__head{
+        padding: 1.5rem;
+    }
+     .app__about-businessStory__contain{
+        margin: 0;
+    }
+    .app__about-businessStory__detail-contain{
+        
+    }
+    /*
+    .app__about-businessStory__detail-contain,.app__about-businessStory__detail-head,.app__about-businessStory-detail{
+        /* position: relative; 
+    } */
+    .app__about-businessStory__detail-head{
+        margin: 0.5rem 2rem;
+    }
+    .app__about-businessStory-detail{
+        margin: 1rem;
+    }
+    .app__about-composition{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .app__about-businessStory__img{
+        display: none;
+    }
+    .app__about-composition{
+        display: none;
+    }
+    .app__about-fun__contain{
+        margin: 5rem 2rem;
+    }
+    .app__about-fun{
+        width: 50%;
+        margin: 1.5rem;
+        padding: 1.5rem;
+    }
+    .app__about-fun__head{
+        padding: 0.8rem;
+    }
+    .app__about-businessStory__contain{
+        display: flex;
+    }
+    .app__about-businessStory__detail-contain{
+        flex: 1;
+        width: 100%;
+    }
+    .app__about-businessStory-detail{
+        margin: 0.2rem;
+    }
 }

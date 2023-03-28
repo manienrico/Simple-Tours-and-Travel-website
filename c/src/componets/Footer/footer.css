@@ -1,7 +1,7 @@
 footer{
     margin: 0;
+    padding-right: 2rem;
     padding-bottom: 2rem;
-    display: block;
     /* background-color: gainsboro; */
     background-color: #000;
     color: #fff;
@@ -54,4 +54,14 @@ footer{
 }
 .rights{
     color: gainsboro;
+}
+
+@media screen and (max-width: 768px) {
+    footer{
+        
+    }
+    .app__footer-contain{
+        display: flex;
+        flex-direction: column;
+    }
 }

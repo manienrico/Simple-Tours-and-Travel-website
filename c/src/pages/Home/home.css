@@ -144,6 +144,9 @@ header{
     .app__home-contents{
       padding: 0.8rem;
     }
+    .app__miniNav-contain{
+      display: none;
+    }
     .app__home-contents__headings{
       padding: 0.8rem 0;
     }
@@ -166,6 +169,54 @@ header{
     .app__home-testimonials{}
     .app__home-testimonialSnippets{
       display: flex;
-      flex-direction: column;
     }
+}
+@media screen and (max-width: 425px) {
+  .app__miniNav-contain{
+    display: none;
+  }
+  .app__home-contents__headings{
+    padding: 0.6rem 0;
+  }
+  .app__home-destination,.app__home-hotelCheckIn{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(5, 1fr); */
+    grid-gap: 0.8rem;
+    padding: 0.8rem 0;
+  }
+  .app__home-fares{
+    margin: 2rem;
+  }
+  .app__home-FaresCard{
+    margin: 1rem;
+    padding: 1rem;
+    width: 6.5rem;
+  }
+  .app__home-testimonials{
+    display: none;
+  }
+}
+@media screen and (max-width: 320px) {
+  .app__home-destination,.app__home-hotelCheckIn{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* grid-template-rows: repeat(5, 1fr); */
+    grid-gap: 0.8rem;
+    padding: 0.8rem 0;
+  }
+  .app__home-fares{
+    margin: 1rem;
+  }
+  .app__home-FaresCard{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 6.2rem;
+  }
+  .app__home-testimonials{
+    display: none;
+  }
+  .app__home-endVisual img{
+    width: 100%;
+  }
 }

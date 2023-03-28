@@ -16,3 +16,18 @@ span{
     margin-left: 1.5rem;
     color: #fff;
 }
+@media screen and (max-width: 425px) {
+    .app__email-main{
+        margin: 5rem 4rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .app__email-main{
+        margin: 6rem 5rem;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .app__email-main{
+        margin: 5rem 6.7rem;
+    }
+}

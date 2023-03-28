@@ -12,3 +12,13 @@
     padding: 10rem;
     border-radius: 1rem;
 }
+@media screen and (max-width: 425px) {
+    .app__whatWeDo{
+        padding: 5rem;
+    }
+}
+@media screen and (max-width: 375px) {
+    .app__whatWeDo{
+        padding: 3rem;
+    }
+}

@@ -50,3 +50,18 @@
     display: flex;
     margin: 0 0.5rem;
 }
+
+@media screen and (max-width: 768px) {
+    .app__trips-main,.app__trips-effort,.app__trips-info__attendance-main{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 0.1rem;
+    }
+}
+@media screen and (max-width: 425px) {
+    .app__trips-main,.app__trips-effort,.app__trips-info__attendance-main{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0.1rem;
+    }
+}

@@ -63,3 +63,12 @@
     width: 100%;
     height: 55vh;
 } */
+
+@media screen and (max-width: 425px) {
+    .app__contact-contain__content-head{
+        padding: 3rem 0.5rem;
+    }
+    .address,.tel,.email{
+        padding: 1rem 1rem;
+    }
+}
